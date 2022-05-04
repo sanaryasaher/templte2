@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+header{
+    background-color:#BDA5AC;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+}
+.Logo{
+    text-decoration: none;
+    color:#482319;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+}
+.nav a{
+    color: #482319;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding: left 30px;
+}
+
+.nav a:hover{
+    color: #5477A7;
+}
+section{
+    padding: 100px 200px;
+}
+.main{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    background-size:cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-image: url(./images/Untitled\ design.png);
+
+}
+.main h2{
+    color:#EF9814;
+    font-size: 1.4em;
+    font-weight: 500;
+
+}
+.main h2 span{
+    display: inline-block;
+    color: #482319;
+    font-size: 2.3em;
+    font-weight: 600;
+    margin-top: 10px;
+
+}
+
+.main h3{
+    color: #EF9814;
+    font-size: 1.7em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.main button{
+    color: #EF9814;
+    background-color: #564148;
+    font-size: 1.1em;
+    font-weight: 600;
+    padding: 10px;;
+    letter-spacing: 1px;
+    border-radius: 10px;
+    transition: 0.7s ease;
+   
+}
+
+.main button:hover{
+    background-color: #351A24;
+    transform: scale(1.1);
+}
+
+.icons a{
+    color:#351A24;
+    font-size: 1.7em;
+    padding-right: 30px;
+
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    color: #482319;
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 30px;
+
+}
+
+.content {
+    /* we use display :flex and justify-content to Center the things in html and sometime we use align items:vertical-align: ; */
+    display: flex;
+    justify-content: center;
+    /* flex-direction: row; we use this element to make the text be the text ine same line */
+    flex-direction: row;
+    /* flex-wrap we use this attributes to make the elements in the section go to under if we have to much element */
+    /* flex-wrap: wrap; */
+
+}
+
+.card{
+    background-color: #FFFFFF;
+    width: 21.25em;
+    /* rgba :the a of the rgb is the apacity of the color  */
+    box-shadow: 0 5px 25px rgba(1 1 1/15%);
+    border-radius: 10px;
+    /* to make the border little curve  */
+    padding: 25px;
+    margin: 50px;
+   
+
+}
+.card :hover{
+    transform: scale(1.1);
+    transition: 0.9s ease;
+    
+}
+.icon{
+    color: #482319;
+    font-size: 8em;
+    text-align: center;
+}
+.info{
+    text-align: center;
+}
+.info h3{
+    color: #EF9814;
+    font-weight: 700;
+    margin: 10px;
+
+}
+.projects{
+    background-color:#744429;
+}
+.projects .content{
+    margin-top: 30px;
+}
+.projectcard{
+    background-color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    min-height: 14em;
+    width: 23em;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 20px;
+    transition: 0.7s ease;
+}
+.projectcard:hover{
+    transform: scale(1.1);
+
+}
+.projectcard:hover .projectimage{
+    opacity: 0.9;
+
+}
+.projectimage{
+    width: 100%;
+}
+.projectinfo{
+    padding: 1em;
+}
+.projectcategory{
+    font-size: 0.8em;
+    color: #000;
+
+}
+.projecttitle{
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin: 10px;
+}
+.More-detials{
+    text-decoration: none;
+    color: blue;
+}
